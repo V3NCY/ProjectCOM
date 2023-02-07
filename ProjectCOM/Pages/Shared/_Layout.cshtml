@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ProjectCOM</title>
+    <title>@ViewData["Title"] ProjectCOM</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProjectCOM.styles.css" asp-append-version="true" />
@@ -23,29 +23,28 @@
             <div class="navbar-collapse collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index"><i class="fa-sharp fa-solid fa-list-ul"></i> Products</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Index"><i class="fa-sharp fa-solid fa-list-ul"></i> Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Account"><i class="fa-solid fa-user"></i> Account</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Account"><i class="fa-solid fa-user"></i> Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Favorite"><i class="fa-solid fa-heart"></i> Favorite</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Favorite"><i class="fa-solid fa-heart"></i> Favorite</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Contacts"><i class="fa-solid fa-phone"></i> Contact us</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Contacts"><i class="fa-solid fa-phone"></i> Contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Support"><i class="fa-solid fa-headphones"></i> 24/7 Support</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Support"><i class="fa-solid fa-headphones"></i> 24/7 Support</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Login"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Login"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Register"><i class="fa-sharp fa-solid fa-user-plus"></i> Register</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Register"><i class="fa-sharp fa-solid fa-user-plus"></i> Register</a>
                         </li>
                     </ul>
                 </div>
-            </div>
         </nav>
     </header>
     <div class="container">
@@ -54,192 +53,9 @@
         </main>
     </div>
 
-    <footer id="dk-footer" class="dk-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="dk-footer-box-info">
-                        <a href="index.html" class="footer-logo">
-                            <img src="@Url.Content("~/images/logo.svg")" alt="footer_logo" class="img-fluid" style="height: 70px;">
-                        </a>
-                        <p class="footer-info-text">
-                            Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
-                        </p>
-                        <div class="footer-social-link">
-                            <h3>Follow us</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- End Social link -->
-                    </div>
-                    <!-- End Footer info -->
-                    <div class="footer-awarad">
-                        <img src="images/icon/best.png" alt="">
-                        <p>Best Design Company 2023</p>
-                    </div>
-                </div>
-                <!-- End Col -->
-                <div class="col-md-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="contact-us">
-                                <div class="contact-icon">
-                                    <i class="fa fa-map-o" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>Plovdiv, Bulgaria</h3>
-                                    <p>1234 Blvd. Plovdiv</p>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                        <div class="col-md-6">
-                            <div class="contact-us contact-us-last">
-                                <div class="contact-icon">
-                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>95 711 9 5353</h3>
-                                    <p>Give us a call</p>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Contact Row -->
-                    <div class="row">
-                        <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget footer-left-widget">
-                                <div class="section-heading">
-                                    <h3>Useful Links</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <a href="#">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Our Team</a>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>
-                                        <a href="#">Contact us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Testimonials</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">FAQ</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- End Footer Widget -->
-                        </div>
-                        <!-- End col -->
-                        <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget">
-                                <div class="section-heading">
-                                    <h3>Subscribe</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
+    <footer> 
+        <p>2023 &copy; All rights reserved.</p>
 
-                                <form action="#">
-                                    <div class="form-row">
-                                        <div class="col dk-footer-form">
-                                            <input type="email" class="form-control" placeholder="Email Address">
-                                            <button type="submit">
-                                                <i class="fa fa-send"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- End form -->
-                            </div>
-                            <!-- End footer widget -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Row -->
-                </div>
-                <!-- End Col -->
-            </div>
-            <!-- End Widget Row -->
-        </div>
-        <!-- End Contact Container -->
-
-
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <span>Copyright © 2023, All Right Reserved</span>
-                    </div>
-                    <!-- End Col -->
-                    <div class="col-md-6">
-                        <div class="copyright-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End col -->
-                </div>
-                <!-- End Row -->
-            </div>
-            <!-- End Copyright Container -->
-        </div>
         <!-- End Copyright -->
         <!-- Back to top -->
         <div id="back-to-top" class="back-to-top">
