@@ -198,12 +198,11 @@ footer {
     font-family: Raleway, sans-serif;
 }
 
-
-
 .container-login {
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    min-height: 100vh;
 }
 
 .screen {
@@ -229,7 +228,6 @@ footer {
     z-index: 0;
     -webkit-clip-path: inset(0 0 0 0);
     clip-path: inset(0 0 0 0);
-    border-radius: 5px;
 }
 
 .screen__background__shape {
@@ -365,7 +363,7 @@ footer {
     .social-login__icon:hover {
         transform: scale(1.5);
     }
-/*User profile*/
+    /*User profile*/
 .form-control:focus {
     box-shadow: none;
     border-color: #BA68C8
@@ -1033,3 +1031,7 @@ a {
         display: block;
     }
     /*End of contacts*/
+
+/*Favorite*/
+
+/*Favorite*/
