@@ -72,7 +72,7 @@ body {
     }
 
         #navbarSupportedContent ul li a i {
-            margin-right: 10px;
+/*            margin-right: 10px;*/
         }
 
     #navbarSupportedContent li {
@@ -774,7 +774,7 @@ a {
         }
 
 .card-back .pricing-wrap h4:before {
-    background: linear-gradient(217deg, #648946, #a3c984);
+    background: linear-gradient(217deg, #c39797, #b784a7);
 }
 
 @keyframes border-transform {
